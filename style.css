@@ -35,6 +35,7 @@ header {
    list-style-type: none; /* Removes bullets */
    margin: 0;
    padding: 0;
+   margin-left: 80px;
  }
  
  nav ul li {
