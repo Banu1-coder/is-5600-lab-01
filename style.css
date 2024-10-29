@@ -151,3 +151,8 @@ header div a {
    justify-content: space-between; /* Distributes items evenly to remove gaps */
  }
  
+ .card {
+   flex-basis: calc(33.333% - 20px); /* Adjusts width to remove right gap */
+   box-sizing: border-box; /* Ensures padding/border don’t affect the width */
+ }
+ 
