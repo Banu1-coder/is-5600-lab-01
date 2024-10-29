@@ -42,4 +42,16 @@ header {
    margin-right: 20px; /* Adds space between items */
  }
  
+ nav ul li a {
+   text-decoration: none; /* Removes underline */
+   color: #333; /* Default color for links */
+ }
+ 
+ nav ul li a:visited {
+   color: #555; /* Color for visited links */
+ }
+ 
+ nav ul li a:hover {
+   color: #0073e6; /* Color when hovered */
+ }
  
