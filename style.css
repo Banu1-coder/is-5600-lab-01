@@ -31,4 +31,10 @@ header {
    height: 60px; /* Matches the logo size */
  }
  
+ nav ul {
+   list-style-type: none; /* Removes bullets */
+   margin: 0;
+   padding: 0;
+ }
+ 
  
