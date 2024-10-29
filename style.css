@@ -19,7 +19,7 @@ header {
    background-size: cover;
    background-position: center; /* Optional: To center the background */
    width: 100%;
-   min-height: 500px;
+   min-height: 600px;
  }
 
  nav {
@@ -29,6 +29,7 @@ header {
    background-position: left center; /* Positions the logo to the left */
    padding-left: 70px; /* Adds space for the logo, tweak if necessary */
    height: 60px; /* Matches the logo size */
+   padding-top: 20px; 
  }
  
  nav ul {
@@ -122,3 +123,23 @@ header div a {
 .card h3 {
    font-size: 14px;
 }
+
+.social {
+   margin-top: 1rem;
+   font-size: 12px;
+ }
+ 
+ .social span {
+   background-size: contain;
+   background-repeat: no-repeat;
+   padding-left: 25px;
+   margin-right: 10px; /* we could use use 1em here, but 10px is a bit more precise */
+ }
+ 
+ .social .heart {
+   background-image: url(./images/heart.png);
+ }
+ 
+ .social .comment {
+   background-image: url(./images/comment.png);
+ }
